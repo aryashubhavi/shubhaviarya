@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://kit.fontawesome.com/4cfcfb0a70.js" crossorigin="anonymous"></script>
+<script src="js/myscript.js" type="text/javascript"></script>
+<link href="style.css" rel="stylesheet" type="text/css" />
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body onload="myLoadingFunction()" style="margin:0;">
+  <div id="loader" style="margin-left:400px; margin-top:100px;">
+    <img src="images/loading2.gif" height="27%" width="27%"/>
+    <img src="images/loading.gif" height="45%" width="45%"/>
+  </div>
+
+  <div style="display:none;" id="myDiv" class="animate-bottom">
+
+        <ul>
+          <li>
+            <div class="menu" style="font-size:30px;cursor:pointer;color: #BC8F8F;" onclick="openNav()">&#9776;</div>
+          </li>
+          <li>
+            <a href="index.html" class="navbar-brand mx-auto d-block text-center order-0 order-md-1 w-25"><img id="logo" src="images/logo.png" alt="logo"></a>
+          </li>
+        </ul>
+
+
+<div id="mySidenav" class="sidenav">
+
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.html" style="font-size:32px;">Home</a>
+  <a href="bio.html" style="font-size:32px;">Bio</a>
+  <a href="cv/cv.html" style="font-size:32px;">CV</a>
+  <a href="researchst.html" style="font-size:32px;">Research Statement</a>
+  <a href="contact.html" style="font-size:32px;">Contact</a>
+
+</div>
+
+<div id="main" data-target=".navbar" data-offset="50">
+
+  <div id="translator" align="right">
+
+          <div id="google_translate_element"></div>
+          <script>
+          function googleTranslateElementInit() {
+          new google.translate.TranslateElement({
+          pageLanguage: 'en',
+          gaTrack: true,
+          gaId: 'UA-8162502-8',
+          layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+          }, 'google_translate_element');
+          }
+          </script><script src ="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+  </div>
+
+  <table class="contact" align="center" width="100%">
+      <tr>
+          <td width ="100%">
+              <div id="content">
+                <p>
+                  Shubhavi Arya
+                  <br />
+                  <a href="mailto:aryax014@umn.edu">aryax014@umn.edu</a>
+                  <br /><br />
+
+                  <a href="https://www.facebook.com/shubhavi" class="facebook"></a><i class="fab fa-facebook fa-2x" style="color:#3B5998"></i></a>
+                  <a href="https://www.instagram.com/shubhaviarya/" class="instagram"><i class="fab fa-instagram fa-2x" style="color:rgb(38, 6, 59)"></i></a>
+                  <a href="https://www.linkedin.com/in/shubhavi-arya-b687a3131/" class="linkedin"><i class="fab fa-linkedin fa-2x" style="color:#2867B2" ></i></a>
+                  <a href="https://github.com/aryashubhavi" class="github"><i class="fab fa-github fa-2x" style="color:#333" ></i></a>
+                  <a href="https://www.youtube.com/channel/UCxDWdrNQZ46r6kVXvCT0f3w?view_as=subscriber" class="youtube"><i class="fab fa-youtube fa-2x" style="color:#bb0000" ></i></a>
+                  <a href="mailto:aryax014@umn.edu" class="email"><i class="fas fa-envelope-square fa-2x" style="color:blue" ></i></a>
+              
+                          <br /><br />
+                          University of Minnesota
+                          <br />
+                          <a href="https://www.google.com/maps/place/University+of+Minnesota/@44.9739938,-93.2299225,602m/data=!3m2!1e3!4b1!4m5!3m4!1s0x52b32d69f70ac7ff:0xe31217a152df9978!8m2!3d44.97399!4d-93.2277285?hl=en">
+                            Minneapolis
+                            <br />
+                            Mininnesota
+                          </a>
+
+
+
+                  </p>
+                  <iframe style="border: 1px #ccc solid; padding:  5px; width="260" height="265" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ_8cK92kts1IReJnfUqEXEuM&key=AIzaSyDXTgyHxAFwSPWXZvWSOKnACtQw20Fzu3I" allowfullscreen></iframe>
+                  </div>
+          </td>
+      </tr>
+
+        </table>
+
+
+        <div class="pre-footer">
+
+        </div>
+
+        <div class="footer">
+        <h3 style="font-family:'Laca Regular';font-weight:normal; font-size:20px; color:#BF9D30;">Copyright 2019 &#9400;     Site Handcrafted by Shubhavi Arya</h3>
+        </div>
+
+</div>
+
+
+</body>
+</html>

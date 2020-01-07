@@ -1,0 +1,322 @@
+
+
+@font-face {
+font-family: 'Laca Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Laca Regular'), url('../fonts/Laca Regular.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Familiar Taste of Poison Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Familiar Taste of Poison Regular'), url('../fonts/Familiar Taste of Poison - TTF.woff') format('woff');
+}
+
+/*old #fff6f2, #FDF8F9, #BC8F8F */
+html, body {color: #434242 !important; height: 100%; cursor: url("../images/mouse.png"),auto;
+}
+body { background: white; font-size: 20px; line-height: 1.64; font-family: Arial, Helvetica, sans-serif;
+ }
+
+
+h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, strong, b { font-family: 'Laca Regular'; font-weight: normal; text-transform: uppercase; !important; margin-bottom: 20px; }
+h4 { font-weight: 700; margin-bottom: 10px; }
+h1{
+	font-family: Montserrat, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-style: normal;
+}
+h2,h3 { font-weight: 300; color: #BF9D30; } /*old #BF9D30 */
+h2 { font-size: 54px; text-align: center; }
+h3 { font-size: 28px; }
+em, i {
+	font-family: "Playfair Display", Serif;
+	color: #BF9D30;
+	letter-spacing: 1px;
+}
+
+p{
+	font-family: Arial, Helvetica, sans-serif;
+			 font-size: 17px;
+}
+p.lead { text-align: center; color: #727878; }
+p.lead a { color: #FFFFFF; text-decoration: underline; }
+p.lead a:hover { text-decoration: none; }
+ul.no-bullets { list-style-type: none; margin: 0px; padding: 0px; }
+hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity=20); }
+
+.pre-footer{
+	width:100%;
+	height:300px;
+	padding-bottom: 150px;
+	padding: 10px;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width:100%;
+	height:150px;
+	background-color: #FDF2F4;
+	color:#333;
+	text-align: center;
+}
+
+
+.floating-menu{
+	font-family: Montserrat, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	border: solid 2px black;
+    padding: 5px;;
+    width: 130px;
+    z-index: 100;
+    position: fixed;
+		margin-left: 1200px;
+		margin-top: 80px;
+}
+
+.floating-menu a,
+  .floating-menu h3 {
+    font-size: 0.9em;
+    display: block;
+    color: black;
+  }
+
+.floating-menu a:hover{
+	color:#BF9D30;
+}
+
+.container a{
+	color: black;
+}
+
+.container a:hover {
+	color:#BF9D30;
+}
+
+	#resume-buttons .button {
+	  border: none;
+		font-family: Montserrat, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-style: normal;
+	font-weight: normal;
+	  text-align: center;
+	  text-decoration: underline;
+	  display: inline-block;
+	  margin-left: 95px;
+	  cursor: pointer;}
+
+
+
+.background-white { background: #FDF2F4; }
+.background-gray { background: #434242; }
+.container { max-width: 1280px; padding: 40px 180px; }
+.container2 { max-width: 1280px; padding: 40px 180px; }
+
+#education .education { margin-bottom: 20px; }
+#education .education p > strong { display: block; padding-top: 8px; margin-bottom: 10px; }
+#education .education .education-details { display: block; margin-top: 6px; }
+#education .education .education-details * { color: #BF9D30; }
+#education .education .education-details .seperator { color: #BCBCBC; }
+
+#skills ul > li { min-height: 30px; padding: 3px 0px; }
+#skills ul > li:hover { background: #F2F2F2; }
+#skills ul > li .skill-title { display: inline-block; width: 60%; }
+#skills ul > li .skill-rating { float: right; }
+#skills ul > li .skill-rating .glyphicon {
+	color: #DFE0E0;
+	font-size: 14px;
+
+	-webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+#skills ul > li .skill-rating .glyphicon.filled { color: #BF9D30; }
+
+#skills ul > li:hover .skill-rating .glyphicon { margin-left: 2px; }
+
+#publications{ margin-bottom: 20px;}
+#publications .publication p > strong { display: block; padding-top: 8px; margin-bottom: 10px; }
+#publications .publication .journal { display: block; margin-top: 6px; }
+#publications .publication .journal * { color: #BF9D30; }
+#publications .publication .journal .seperator { color: #BCBCBC; }
+
+#experience{margin-bottom:  20px;}
+#experience .experience p> strong{dispaly: block; padding-top: 8px; margin-bottom: 10px;}
+#experience .experience .experience-details {display: block; margin-top: 6px;}
+#experience .experience .experience-details * {color: #BF9D30;}
+#experience .experience .experience-details .seperator { color: #BCBCBC; }
+
+#interests ul > li { min-height: 30px; padding: 3px 0px; margin-left: 100px;}
+#interests ul > li:hover { background: #F2F2F2; }
+#interests ul > li .interest-title { display: inline-block; width: 60%; }
+
+.opl {
+	position:absolute;
+	top:100px;
+	left:0px;
+	z-index:99999;
+}
+
+.opl a {
+	width:73px;
+	height:56px;
+	text-indent:-9999px;
+	display:block;
+	background:url('https://s3.amazonaws.com/onepagelove/one-page-love-award.png') no-repeat;
+}
+
+@media (max-width: 767px) {
+
+	.container { padding: 60px 20px; min-width: 280px; }
+	.hidden-phone { display: none; }
+
+	#education .education .education-details > span { display: block; margin-bottom: 6px; }
+	#education .education .education-details .seperator { display: none; }
+}
+
+
+@keyframes wiggle {
+	0% {
+		padding-top: 20px;
+	}
+
+	50% {
+		padding-top: 28px;
+	}
+
+	100% {
+		padding-top: 20px;
+	}
+}
+
+/*--activities grid--*/
+.grid-container{
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-column-gap: 50px;
+	grid-row-gap: 50px;
+	/* background-color: #BF9D30; */
+	border: solid 4px #BF9D30;
+	padding:  10px;
+}
+
+.grid-item {
+  background-color: #FDF2F4;
+  border: 1px solid #BF9D30;
+	color: #BF9D30;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+//*from main style.css*/
+body {
+  transition: background-color .5s;
+}
+
+/* The side navigation menu */
+.sidenav{
+    height: 100%;
+    width: 0; /* change this with java script */
+    position: fixed;
+    z-index: 1000; /* Stay on top */
+    top: 0;
+    left:0;
+    background-color: white;
+    overflow-x: hidden; /*disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+		font-family:'Laca Regular';font-weight:normal;
+
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #BF9D30;
+  }
+
+      /* Position and style the close button (top right corner) */
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+				color: #BF9D30;
+      }
+
+  /*push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+	min-height: 100%;
+	position: relative;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  .abs-center-x {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+   }
+
+
+
+	 .navbar-brand > img {
+     display: block;
+     position: absolute;
+     top: -80px;
+     left: 450px;
+     margin: 0;
+     padding: 0;
+     z-index: 9999;
+     text-indent: -9999px;
+     border-bottom: 0;
+
+   }
+
+  .mymain-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FDF2F4;  /* #ffe0e0;;*/
+	height: 100px;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+	z-index: 999;
+  }
+
+  .menu{
+    color:white;
+    margin-left: 50px;
+    margin-top: 20px;
+  }
