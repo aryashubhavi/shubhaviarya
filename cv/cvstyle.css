@@ -20,6 +20,9 @@ html, body {color: #434242 !important; height: 100%; cursor: url("../images/mous
 body { background: white; font-size: 20px; line-height: 1.64; font-family: Arial, Helvetica, sans-serif;
  }
 
+ .hidden-phone {font-size: 17px;}
+ .location {font-size: 17px;}
+
 
 h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, strong, b { font-family: 'Laca Regular'; font-weight: normal; text-transform: uppercase; !important; margin-bottom: 20px; }
 h4 { font-weight: 700; margin-bottom: 10px; }
