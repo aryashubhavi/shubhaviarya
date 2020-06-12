@@ -48,15 +48,15 @@ body {
   }
 
 
-      /* Position and style the close button (top right corner) */
-      .sidenav .closebtn {
-        position: absolute;
-        top: 0;
-        right: 25px;
-        font-size: 36px;
-        margin-left: 50px;
-        color: #BF9D30;
-      }
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  color: #BF9D30;
+}
 
   /*push the page content to the right when you open the side navigation */
 #main {
@@ -126,7 +126,7 @@ body {
 
   .profilepic{
     margin-left:550px;
-    margin-top: 100px;
+    margin-top: 10px;
   }
 
   .social-media{
