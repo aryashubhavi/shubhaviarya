@@ -16,7 +16,7 @@ function openNav() {
 var myVar;
 
 function myLoadingFunction() {
-  myVar = setTimeout(showPage, 1500);
+  myVar = setTimeout(showPage, 2500);
 }
 
 function showPage() {
