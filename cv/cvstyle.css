@@ -7,13 +7,6 @@ font-weight: normal;
 src: local('Laca Regular'), url('../fonts/Laca Regular.woff') format('woff');
 }
 
-@font-face {
-font-family: 'Familiar Taste of Poison Regular';
-font-style: normal;
-font-weight: normal;
-src: local('Familiar Taste of Poison Regular'), url('../fonts/Familiar Taste of Poison - TTF.woff') format('woff');
-}
-
 /*old #fff6f2, #FDF8F9, #BC8F8F */
 html, body {color: #434242 !important; height: 100%; cursor: url("../images/mouse.png"),auto;
 }
@@ -23,8 +16,30 @@ body { background: white; font-size: 20px; line-height: 1.64; font-family: Arial
  .hidden-phone {font-size: 17px;}
  .location {font-size: 17px;}
 
+header{
+position: fixed;
+top: 0;
+left:0;
+margin:auto;
+width: 100%;
+z-index: 99;
+}
 
-h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, strong, b { font-family: 'Laca Regular'; font-weight: normal; text-transform: uppercase; !important; margin-bottom: 20px; }
+footer{
+  left:0;
+  bottom:0;
+  height:150px;
+  background-color:  #FDF2F4;
+  color:#BF9D30;
+  text-align: center;
+  position: absolute;
+  margin:auto;
+  width: 100%;
+  z-index: 99;
+}
+
+
+h2,h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, strong, b { font-family: 'Laca Regular'; font-weight: normal; text-transform: uppercase; !important; margin-bottom: 20px; }
 h4 { font-weight: 700; margin-bottom: 10px; }
 h1{
 	font-family: Montserrat, Arial, Helvetica, sans-serif;
@@ -57,16 +72,6 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 	padding: 10px;
 }
 
-.footer {
-	position: absolute;
-	bottom: 0;
-	width:100%;
-	height:150px;
-	background-color: #FDF2F4;
-	color:#333;
-	text-align: center;
-}
-
 
 .floating-menu{
 	font-family: Montserrat, Arial, Helvetica, sans-serif;
@@ -80,7 +85,7 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
     z-index: 100;
     position: fixed;
 		margin-left: 1200px;
-		margin-top: 80px;
+		margin-top: 200px;
 }
 
 .floating-menu a,
@@ -113,6 +118,7 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 	  text-align: center;
 	  text-decoration: underline;
 	  display: inline-block;
+    margin-top:120px;
 	  margin-left: 95px;
 	  cursor: pointer;}
 
