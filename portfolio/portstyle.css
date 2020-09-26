@@ -77,13 +77,25 @@ footer{
     font-weight: bold;
   }
 
-.floating-menu a{
+.floating-menu .head-link {
+  font-size: 0.9em;
+  display: block;
+  color: black;
+  font-weight: bold;
+}
+
+.floating-menu .link{
   display: block;
   color: #f5ced5;
   font-weight: bold;
 }
 
-.floating-menu a:hover{
+.floating-menu .head-link:hover{
+  color:#BF9D30;
+  text-decoration: line-through #BF9D30 ;
+}
+
+.floating-menu .link:hover{
   color:#BF9D30;
   text-decoration: line-through #BF9D30 ;
 }
