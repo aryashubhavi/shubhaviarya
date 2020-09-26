@@ -34,7 +34,14 @@
 
   </head>
 
-  <body>
+  <body onload="myLoadingFunction()" style="margin:0;">
+  <div id="loader" style="margin-left:400px; margin-top:100px;">
+    <img src="../images/loading2.gif" height="27%" width="27%"/>
+    <img src="../images/loading.gif" height="45%" width="45%"/>
+  </div>
+
+  <div style="display:none;" id="myDiv" class="animate-bottom">
+
   <header>
     <ul class="mymain-menu">
       <li>
@@ -1164,6 +1171,7 @@ event.
           </footer>
 
             </div>
+    </div>
 
 
     </body>
