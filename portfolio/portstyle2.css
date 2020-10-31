@@ -42,19 +42,18 @@ footer{
   z-index: -4;
 }
 
-.video-container{
-  position: relative;
-  padding-bottom: 56.25%; 
+.central-body{
   padding-top: 30px;
   margin-top: 120px; 
+}
+
+.video-container{
   margin-bottom: 0px;
-  height: 0; 
-  overflow: hidden;
   z-index: 10;
 }
 
 .video-container iframe, .video-container object, .video-container embed 
-{ position: absolute; top: 0; left: 400px; width: 65%; height: 65%;
+{
   z-index: 10; }
 
 .floating-menu{
